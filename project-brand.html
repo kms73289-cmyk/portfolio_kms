@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brand Landing — 홍길동</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="홈으로">
+        <span class="logo-mark">H</span>
+        <span class="logo-text">홍길동</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="index.html">홈</a>
+        <a href="index.html#projects">프로젝트</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="project-detail">
+    <div class="container">
+      <a class="back-link" href="index.html#projects">← 프로젝트 목록</a>
+      <div class="project-hero">
+        <img
+          src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80"
+          alt="Brand Landing 화면"
+        />
+      </div>
+      <p class="project-meta">UI · Responsive · Motion</p>
+      <h1>Brand Landing</h1>
+      <p class="lead">브랜드 톤에 맞춘 반응형 랜딩 페이지입니다.</p>
+      <div class="project-content">
+        <p>
+          브랜드의 톤과 메시지를 첫 화면에서 바로 전달하도록 타이포그래피와 여백을 맞춰 구성했습니다.
+          핵심 CTA가 항상 보이도록 섹션 흐름을 단순하게 잡았습니다.
+        </p>
+        <p>
+          데스크톱과 모바일에서 레이아웃이 자연스럽게 재배치되고,
+          전환 모션은 콘텐츠를 방해하지 않는 수준으로만 넣었습니다.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>홍길동 · <a href="mailto:gildong@example.com">gildong@example.com</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

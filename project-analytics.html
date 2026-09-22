@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analytics Dashboard — 홍길동</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="홈으로">
+        <span class="logo-mark">H</span>
+        <span class="logo-text">홍길동</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="index.html">홈</a>
+        <a href="index.html#projects">프로젝트</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="project-detail">
+    <div class="container">
+      <a class="back-link" href="index.html#projects">← 프로젝트 목록</a>
+      <div class="project-hero">
+        <img
+          src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1200&q=80"
+          alt="Analytics Dashboard 화면"
+        />
+      </div>
+      <p class="project-meta">HTML · CSS · JavaScript</p>
+      <h1>Analytics Dashboard</h1>
+      <p class="lead">실시간 지표를 한 화면에서 볼 수 있는 웹 대시보드입니다.</p>
+      <div class="project-content">
+        <p>
+          여러 채널의 핵심 지표를 한곳에 모아, 팀이 빠르게 현황을 파악할 수 있도록 설계했습니다.
+          필터와 기간 선택으로 원하는 구간만 집중해서 볼 수 있습니다.
+        </p>
+        <p>
+          차트와 카드 레이아웃은 우선순위가 높은 숫자부터 보이도록 구성했고,
+          모바일에서도 스크롤 부담이 적도록 정보를 단계적으로 배치했습니다.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>홍길동 · <a href="mailto:gildong@example.com">gildong@example.com</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
